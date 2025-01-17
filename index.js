@@ -97,7 +97,7 @@ document.addEventListener("DOMContentLoaded", function () {
       value: parsedData.easySolved,
     },
     {
-      label: "Overall MediumSubmissions",
+      label: "Overall Medium Submissions",
       value: parsedData.mediumSolved,
     },
     {
