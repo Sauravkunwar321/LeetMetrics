@@ -10,6 +10,13 @@ document.addEventListener("DOMContentLoaded", function () {
   const hardLabel = document.getElementById("hard-label");
   const cardStatsContainer = document.querySelector(".stats-card");
 
+
+  const darkModeToggle = document.getElementById("dark-mode-toggle");
+darkModeToggle.addEventListener("click", () => {
+  document.body.classList.toggle("dark-mode");
+});
+
+
   //validate and return true or false based on regex(regular expression)
   function validateUsername(username) {
     if (username.trim() === "") {
